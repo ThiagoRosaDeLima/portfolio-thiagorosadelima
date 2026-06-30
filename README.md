@@ -2,7 +2,7 @@
 
 Portfólio pessoal desenvolvido como Atividade Prática da disciplina **Fundamentos da Programação Web**, utilizando exclusivamente **HTML5**, **CSS3** e **JavaScript puro** (sem frameworks ou bibliotecas).
 
-🔗 **Site publicado:** (https://thiagorosadelima.github.io/)
+🔗 **Site publicado:** ([https://thiagorosadelima.github.io/](https://thiagorosadelima.github.io/portfolio-thiagorosadelima/))
 
 ## Funcionalidades
 
