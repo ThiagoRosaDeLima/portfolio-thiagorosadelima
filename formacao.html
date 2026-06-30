@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formação | Thiago Rosa de Lima</title>
+  <meta name="description" content="Formação acadêmica e cursos de Thiago Rosa de Lima.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- ======================= CABEÇALHO / MENU FIXO ======================= -->
+  <header class="cabecalho">
+    <nav class="barra-nav">
+      <a href="index.html" class="logo">Thiago<span>.Lima</span></a>
+
+      <ul class="menu" id="menu-principal">
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="acoes-cabecalho">
+        <button id="botao-tema" class="botao-tema" type="button" aria-label="Alternar tema claro/escuro">🌙</button>
+        <button id="botao-menu-mobile" class="botao-menu-mobile" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="secao">
+      <div class="container">
+        <div class="secao-cabecalho">
+          <h1>Formação</h1>
+          <p>Minha trajetória acadêmica até aqui.</p>
+          <div class="linha-destaque"></div>
+        </div>
+
+        <!-- ======================= LINHA DO TEMPO ACADÊMICA ======================= -->
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="tag-status">Cursando</span>
+            <h3>Engenharia de Software</h3>
+            <!-- TODO: troque "Ensino Superior" pelo nome exato da sua instituição, se quiser detalhar -->
+            <p class="instituicao">Ensino Superior &middot; Em andamento</p>
+            <p>
+              Curso focado em desenvolvimento de software, lógica de programação,
+              estrutura de dados e engenharia de sistemas. É a base técnica para
+              os projetos que venho desenvolvendo, incluindo o que está na seção
+              de <a href="portfolio.html">Portfólio</a>.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="tag-status">Cursando</span>
+            <h3>Design de Games</h3>
+            <p class="instituicao">Ensino Superior &middot; Em andamento</p>
+            <p>
+              Curso voltado para o desenvolvimento de jogos digitais, unindo
+              fundamentos de design, narrativa e produção de games com a parte
+              técnica de programação que aprendo em Engenharia de Software.
+            </p>
+          </div>
+
+          <!--
+            TODO: se você tiver outros cursos concluídos, certificados ou
+            cursos livres (ex: cursos de programação, design, etc.), copie o
+            bloco abaixo, ajuste o texto e cole aqui dentro da timeline.
+
+          <div class="timeline-item">
+            <span class="tag-status">Concluído</span>
+            <h3>Nome do curso</h3>
+            <p class="instituicao">Instituição &middot; Ano</p>
+            <p>Breve descrição do curso.</p>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= IDIOMAS ======================= -->
+    <section class="secao" style="padding-top:0;">
+      <div class="container">
+        <div class="secao-cabecalho">
+          <h2>Idiomas</h2>
+          <div class="linha-destaque"></div>
+        </div>
+
+        <div style="max-width:560px;margin:0 auto;">
+          <div class="barra-habilidade">
+            <div class="rotulo">
+              <span>Português</span>
+              <span>Nativo</span>
+            </div>
+            <div class="barra-fundo">
+              <div class="barra-preenchida" style="width: 100%;"></div>
+            </div>
+          </div>
+
+          <!--
+            TODO: adicione aqui outros idiomas que você fala ou está
+            estudando, copiando o bloco ".barra-habilidade" acima e
+            ajustando o nome do idioma e a largura da barra (em %)
+            conforme o seu nível.
+          -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= RODAPÉ ======================= -->
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; 2026 Thiago Rosa de Lima. Todos os direitos reservados.</p>
+      <div class="rodape-redes">
+        <a href="https://github.com/ThiagoRosaDeLima" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:rosadelimathiago@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

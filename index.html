@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Doctype HTML5, conforme exigido na atividade -->
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiago Rosa de Lima | Portfólio</title>
+  <meta name="description" content="Portfólio pessoal de Thiago Rosa de Lima, estudante de Engenharia de Software e Design de Games.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- ======================= CABEÇALHO / MENU FIXO ======================= -->
+  <!-- Este mesmo cabeçalho se repete em todas as páginas, garantindo que o
+       menu de navegação esteja sempre visível, como pedido na atividade. -->
+  <header class="cabecalho">
+    <nav class="barra-nav">
+      <a href="index.html" class="logo">Thiago<span>.Lima</span></a>
+
+      <ul class="menu" id="menu-principal">
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="acoes-cabecalho">
+        <button id="botao-tema" class="botao-tema" type="button" aria-label="Alternar tema claro/escuro">🌙</button>
+        <button id="botao-menu-mobile" class="botao-menu-mobile" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======================= HERO / APRESENTAÇÃO ======================= -->
+    <section class="secao">
+      <div class="container hero">
+        <div class="hero-texto">
+          <span class="saudacao">Olá, eu sou</span>
+          <h1>Thiago Rosa de Lima</h1>
+          <p>
+            Estudante de Engenharia de Software e Design de Games, de Balneário
+            Camboriú - SC. Gosto de transformar ideias em projetos práticos e
+            estou sempre aprendendo algo novo sobre tecnologia, música e jogos.
+          </p>
+          <div class="grupo-botoes">
+            <a href="portfolio.html" class="botao">Ver meu portfólio</a>
+            <a href="contato.html" class="botao botao-secundario">Entrar em contato</a>
+          </div>
+        </div>
+
+        <div class="hero-avatar">
+          <!-- Avatar com iniciais no lugar de uma foto. Pode ser trocado por
+               uma <img src="assets/foto.jpg" alt="Foto de Thiago"> se desejar. -->
+          <div class="avatar-iniciais">TL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= SOBRE MIM (texto) ======================= -->
+    <section class="secao" style="padding-top:0;">
+      <div class="container">
+        <div class="secao-cabecalho">
+          <h2>Um pouco sobre mim</h2>
+          <div class="linha-destaque"></div>
+        </div>
+        <p style="max-width:680px;margin:0 auto;text-align:center;color:var(--cor-texto-suave);">
+          Atualmente curso Engenharia de Software e também estou cursando Design
+          de Games, duas áreas que se complementam bastante no meu dia a dia de
+          estudos: uma me ensina a estruturar e programar soluções, e a outra
+          me aproxima da parte criativa e visual dos projetos. RU: 5499093.
+          Fora da faculdade, gosto de equilibrar a rotina de estudos com música,
+          jogos e prática de artes marciais.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================= HOBBIES / INTERESSES ======================= -->
+    <section class="secao" style="padding-top:0;">
+      <div class="container">
+        <div class="secao-cabecalho">
+          <h2>Hobbies &amp; Interesses</h2>
+          <div class="linha-destaque"></div>
+        </div>
+
+        <div class="grade-cards">
+          <div class="card">
+            <span class="icone">🎸</span>
+            <h3>Tocar guitarra</h3>
+            <p>Nas horas vagas, gosto de tocar guitarra. É uma das formas que encontrei de relaxar e exercitar a criatividade.</p>
+          </div>
+
+          <div class="card">
+            <span class="icone">🥋</span>
+            <h3>Karatê</h3>
+            <p>Pratico karatê, o que me ajuda a manter a disciplina, o foco e a saúde física em dia.</p>
+          </div>
+
+          <div class="card">
+            <span class="icone">🎮</span>
+            <h3>Jogos no PC</h3>
+            <p>Sou apaixonado por jogos no computador, o que também despertou meu interesse por Design de Games.</p>
+          </div>
+
+          <div class="card">
+            <span class="icone">🎧</span>
+            <h3>Música</h3>
+            <p>Ouvir música é praticamente uma trilha sonora constante para os meus estudos e projetos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= RODAPÉ ======================= -->
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; <span id="ano-atual">2026</span> Thiago Rosa de Lima. Todos os direitos reservados.</p>
+      <div class="rodape-redes">
+        <a href="https://github.com/ThiagoRosaDeLima" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="mailto:rosadelimathiago@gmail.com" aria-label="E-mail">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
