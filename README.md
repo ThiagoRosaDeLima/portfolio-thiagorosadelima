@@ -1,6 +1,6 @@
 # Portfólio Pessoal — Thiago Rosa de Lima
 
-Portfólio pessoal desenvolvido como Atividade Prática da disciplina **Fundamentos da Programação Web**, utilizando exclusivamente **HTML5**, **CSS3** e **JavaScript puro** (sem frameworks ou bibliotecas).
+Portfólio pessoal desenvolvido como Atividade Prática da disciplina **Fundamentos da Programação Web**, utilizando exclusivamente **HTML5**, **CSS3** e **JavaScript puro**.
 
 🔗 **Site publicado:** ([https://thiagorosadelima.github.io/](https://thiagorosadelima.github.io/portfolio-thiagorosadelima/))
 
